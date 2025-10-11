@@ -18,4 +18,5 @@ find_package(yaml-cpp REQUIRED)
 add_executable(testgenerator ${SOURCES})
 target_link_libraries(testgenerator yaml-cpp)
 
-target_link_libraries(testgenerator -static)
+target_link_libraries(testgenerator)
+
